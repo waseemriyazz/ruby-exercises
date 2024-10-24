@@ -5,7 +5,7 @@ end
 
 def subtract(a, b)
   # return the result of subtracting b from a
-  a - b
+  a-b
 end
 
 def multiply(a, b)
@@ -16,6 +16,7 @@ end
 def divide(a, b)
   # return the result of dividing a by b
   a/b
+  
 end
 
 def remainder(a, b)
@@ -25,13 +26,12 @@ end
 
 def float_division(a, b)
   # return the result of dividing a by b as a float, rather than an integer
-  a.to_f/b
+  (a.to_f)/b
 end
 
 def string_to_number(string)
   # return the result of converting a string into an integer
-
-  string.to_i;
+  string.to_i
 end
 
 def even?(number)
